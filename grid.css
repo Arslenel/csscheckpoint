@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    grid-template-rows:repeat(2,1fr);
+    grid-template-areas:
+      "rome rome rome brc brc brc flrc flrc flrc"
+      "rome rome rome brc brc brc flrc flrc flrc"
+      "berlin berlin berlin buenos buenos buenos beirut beirut beirut"
+      "berlin berlin berlin buenos buenos buenos beirut beirut beirut"
+
+}
+.rome{
+    background-image: url(/federico-di-dio-photography-Q4g0Q-eVVEg-unsplash.jpg);
+    background-size: contain;
+    
+}
